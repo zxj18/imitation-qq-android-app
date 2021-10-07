@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:gravity="right">
+
+    <TextView
+        android:id="@+id/talkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:text="烤肠"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:background="#cef"
+        android:layout_marginStart="300dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/kaochang">
+    </ImageView>
+</LinearLayout>
